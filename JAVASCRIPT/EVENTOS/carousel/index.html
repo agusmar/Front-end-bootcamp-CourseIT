@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document Test</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="container" id="slider">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+      </div>
+    </div>
+    <div class="arrows">
+      <button onclick="forward()"><</button>
+      <button onclick="backward()">></button>
+    </div>
+    <ul id="slides-container"></ul>
+
+    <hr />
+
+    <input type="text" onkeyup="replicate()" id="inputValue" />
+    <p id="rep"></p>
+    <script src="./main.js"></script>
+  </body>
+</html>

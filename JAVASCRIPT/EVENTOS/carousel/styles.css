@@ -1,0 +1,33 @@
+.main-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 200px;
+}
+
+.container {
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  
+
+}
+
+.item {
+  width: 180px;
+  height: 180px;
+  background-color: cadetblue;
+  color: white;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.arrows {
+  display: flex;
+  justify-content: center;
+}
