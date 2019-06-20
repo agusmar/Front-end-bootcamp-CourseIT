@@ -31,3 +31,16 @@
   display: flex;
   justify-content: center;
 }
+
+ul {
+  display:flex;
+  list-style: none;
+  justify-content: center;
+}
+
+li {
+  background-color: peru;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 10px;
+}

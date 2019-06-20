@@ -10,6 +10,11 @@ for (let i = 0; i < itemsLength; i++) {
 function createListItem(val) {
   const listItem = document.createElement("li");
   const text = document.createTextNode(val);
+
+  const attr = document.createAttribute("onclick");
+  attr.value = `goToSlide(${val})`;
+  listItem.setAttributeNode(attr);
+
   listItem.appendChild(text)
   slides.appendChild(listItem);
 }
