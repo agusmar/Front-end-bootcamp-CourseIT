@@ -1,0 +1,129 @@
+.mainContainer {
+  width: 100%;
+}
+
+.header h1 {
+  font-family: "Grand Hotel", cursive;
+  font-weight: lighter;
+  text-align: center;
+  margin: 0;
+}
+
+.productContainer {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.product {
+  border: 0.5px solid #ebebeb;
+  border-radius: 2px;
+  width: 250px;
+  margin: 10px;
+}
+
+.image {
+  width: 230px;
+  margin: 10px;
+  position: relative;
+}
+.image img {
+  width: 100%;
+}
+
+.icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.shipping {
+  top: 10px;
+  left: 10px;
+  color: #5dd15d;
+  transform: scaleX(-1);
+}
+
+.favourite {
+  top: 10px;
+  right: 10px;
+  color: #00a2ff;
+}
+
+.previous {
+  left: 4px;
+  bottom: 30px;
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  color: white;
+  background-color: #00a2ff;
+  opacity: 0.5;
+}
+
+.next {
+  right: 4px;
+  bottom: 30px;
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  color: white;
+  background-color: #00a2ff;
+  opacity: 0.5;
+  transform: scaleX(-1);
+}
+
+.price {
+  height: 40px;
+  text-align: center;
+  color: #00a2ff;
+  font-size: 24px;
+  font-weight: normal;
+}
+.price sup {
+  font-size: 12px;
+}
+.price p {
+  margin: 0;
+  padding: 0;
+}
+
+.oldPrice {
+  color: grey;
+  font-size: 12px;
+  text-decoration: line-through;
+  display: inline-block;
+}
+
+.priceOff {
+  color: #5dd15d;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.productInfo {
+  font-size: 12px;
+  margin: 0px 12px 12px 12px;
+}
+.productInfo h3 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 1.2em;
+  white-space: nowrap;
+  font-weight: lighter;
+}
+
+.fa-star {
+  color: #00a2ff;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/*# sourceMappingURL=style.css.map */
