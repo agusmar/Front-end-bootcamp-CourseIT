@@ -1,18 +1,18 @@
+
+
 .main-container {
   width: 100%;
-  overflow: hidden;
-  position: relative;
   height: 200px;
+  position: relative;
+  overflow: hidden;
 }
 
 .container {
   height: 200px;
+  display: flex;
   position: absolute;
   top: 0;
   left: 0;
-  display: flex;
-  
-
 }
 
 .item {
