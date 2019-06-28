@@ -7,9 +7,9 @@ $.ajax ({
   $("#avatar").append(`<img src="${data.avatar_url}" />`)
   console.log(data)
   if (data.hireable) {
-    $("#jobstatus").append("I´m looking for an awesome company to hire me")
+    $("#jobstatus").append("Looking for an awesome company to hire me!")
   }
   else {
-    $("#jobstatus").append("I´m currently working but I would be pleased to know from you")
+    $("#jobstatus").append("Currently working but I would be pleased to know from you")
   }
 })
